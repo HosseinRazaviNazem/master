@@ -1,0 +1,21 @@
+<?php
+$myfunc="myfunction";
+
+
+if(function_exists(!$myfunc) ){
+
+
+    $myfunc();
+}
+
+
+
+function myfunction (){
+
+
+    echo "func is working";
+}
+
+
+
+?>
